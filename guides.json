@@ -1,0 +1,492 @@
+[
+ {
+  "id": "salty-dal",
+  "title": "Dal or curry is too salty",
+  "triggers": [
+   "dal",
+   "salty",
+   "salt",
+   "curry",
+   "sambar",
+   "gravy"
+  ],
+  "questions": [
+   {
+    "q": "Is the dish still on the stove?",
+    "options": [
+     {
+      "text": "Yes, still hot",
+      "steps": [
+       "Keep the flame low so it does not thicken further."
+      ]
+     },
+     {
+      "text": "No, it has cooled",
+      "steps": [
+       "Reheat it gently on a low flame."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How salty is it?",
+    "options": [
+     {
+      "text": "Slightly salty",
+      "steps": [
+       "Add 1 or 2 tablespoons of hot water and stir.",
+       "Squeeze in a little lemon juice."
+      ]
+     },
+     {
+      "text": "Very salty",
+      "steps": [
+       "Add a cup of hot water or unsalted stock.",
+       "Add more cooked dal, boiled potato or tomato to dilute it."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "What is the dish like?",
+    "options": [
+     {
+      "text": "Thin dal or curry",
+      "steps": [
+       "Drop in a peeled raw potato piece, simmer 10 minutes, then remove it."
+      ]
+     },
+     {
+      "text": "Thick gravy",
+      "steps": [
+       "Stir in a spoon of curd or fresh cream to soften the saltiness."
+      ]
+     },
+     {
+      "text": "Dry vegetable",
+      "steps": [
+       "Mix in boiled, unsalted potato or plain rice to absorb the salt."
+      ]
+     }
+    ]
+   }
+  ],
+  "after": [
+   "Taste after every change and do not add salt again.",
+   "Serve with plain rice or roti to balance the salt."
+  ],
+  "start": "-"
+ },
+ {
+  "id": "travel-checklist",
+  "title": "Travelling checklist",
+  "triggers": [
+   "travel",
+   "travelling",
+   "trip",
+   "journey",
+   "tomorrow",
+   "packing",
+   "pack",
+   "train",
+   "bus",
+   "flight"
+  ],
+  "questions": [
+   {
+    "q": "How long is the trip?",
+    "options": [
+     {
+      "text": "Day trip",
+      "steps": [
+       "Ticket and ID card.",
+       "Phone and charger.",
+       "Wallet with some cash.",
+       "Water bottle and a snack."
+      ]
+     },
+     {
+      "text": "Overnight",
+      "steps": [
+       "Tickets, ID and booking details.",
+       "Phone, charger and power bank.",
+       "One extra set of clothes, toiletries and a towel.",
+       "Cash and cards."
+      ]
+     },
+     {
+      "text": "Several days",
+      "steps": [
+       "Tickets, ID and booking details.",
+       "Phone, charger and power bank.",
+       "Clothes for each day plus one extra.",
+       "Toiletries, towel and any medicines you need.",
+       "Cash and cards."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How are you travelling?",
+    "options": [
+     {
+      "text": "Train",
+      "steps": [
+       "Keep your ticket on your phone and also saved or printed.",
+       "Reach the station 30 minutes early."
+      ]
+     },
+     {
+      "text": "Bus",
+      "steps": [
+       "Check the boarding point and departure time.",
+       "Keep small change handy."
+      ]
+     },
+     {
+      "text": "Flight",
+      "steps": [
+       "Download the boarding pass and check baggage weight and liquid rules.",
+       "Reach the airport early."
+      ]
+     },
+     {
+      "text": "Own vehicle",
+      "steps": [
+       "Check fuel, tyre air and brakes.",
+       "Keep your licence and vehicle papers with you."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Who is travelling?",
+    "options": [
+     {
+      "text": "Only me",
+      "steps": [
+       "Share your plan and live location with someone at home."
+      ]
+     },
+     {
+      "text": "With children",
+      "steps": [
+       "Pack snacks, spare clothes and any medicines for the children.",
+       "Keep contact details in each child's bag."
+      ]
+     },
+     {
+      "text": "With elders",
+      "steps": [
+       "Carry their medicines and doctor's notes.",
+       "Plan rest stops and easy seating."
+      ]
+     }
+    ]
+   }
+  ],
+  "after": [
+   "Switch off gas, fans and lights.",
+   "Lock doors and windows before leaving.",
+   "Charge your phone fully tonight."
+  ],
+  "start": "-"
+ },
+ {
+  "id": "exam-revise",
+  "title": "Exam coming soon: how to revise",
+  "triggers": [
+   "exam",
+   "test",
+   "revise",
+   "revision",
+   "study",
+   "prepare",
+   "preparing",
+   "marks"
+  ],
+  "questions": [
+   {
+    "q": "How many days are left?",
+    "options": [
+     {
+      "text": "1 day or less",
+      "steps": [
+       "List the topics most likely to come.",
+       "Revise only formulas, definitions and key points."
+      ]
+     },
+     {
+      "text": "2 to 7 days",
+      "steps": [
+       "Divide the syllabus by the number of days.",
+       "Study the hardest topic first each day."
+      ]
+     },
+     {
+      "text": "More than a week",
+      "steps": [
+       "Make a weekly plan that covers every chapter once.",
+       "Mark weak topics and give them extra days."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How is your preparation so far?",
+    "options": [
+     {
+      "text": "Not started",
+      "steps": [
+       "Start with the most important chapters and skip rarely asked ones."
+      ]
+     },
+     {
+      "text": "About half done",
+      "steps": [
+       "Finish the remaining chapters first, then revise."
+      ]
+     },
+     {
+      "text": "Mostly done",
+      "steps": [
+       "Spend most of your time on past questions and weak topics."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "What kind of exam is it?",
+    "options": [
+     {
+      "text": "Written or theory",
+      "steps": [
+       "Practise writing answers within the time limit."
+      ]
+     },
+     {
+      "text": "Maths or problems",
+      "steps": [
+       "Solve a past paper under timed conditions.",
+       "Redo the problems you got wrong."
+      ]
+     },
+     {
+      "text": "Objective or MCQ",
+      "steps": [
+       "Practise many MCQs and check why the wrong options are wrong."
+      ]
+     }
+    ]
+   }
+  ],
+  "after": [
+   "Sleep at least 6 hours before the exam.",
+   "Pack your hall ticket, pens and ID the night before."
+  ],
+  "start": "-"
+ },
+ {
+  "id": "sticky-rice",
+  "title": "Rice came out sticky or mushy",
+  "triggers": [
+   "rice",
+   "sticky",
+   "mushy",
+   "soggy",
+   "cooked"
+  ],
+  "start": "s",
+  "blocks": {
+   "s": {
+    "q": "Is the rice soft but separate, or a wet lump?",
+    "options": [
+     {
+      "text": "A wet lump",
+      "next": "wet"
+     },
+     {
+      "text": "A bit sticky only",
+      "next": "bit"
+     }
+    ]
+   },
+   "wet": {
+    "a": "1. Spread it on a wide plate to steam off.\n2. Turn it into fried rice or lemon rice; wet rice works well for that.\n3. Next time use less water and do not stir while cooking."
+   },
+   "bit": {
+    "a": "1. Fluff gently with a fork.\n2. Leave uncovered for 5 minutes.\n3. Next time rinse the rice until the water is clear."
+   }
+  }
+ },
+ {
+  "id": "wifi-no-internet",
+  "title": "Wi-Fi connected but no internet",
+  "triggers": [
+   "wifi",
+   "internet",
+   "router",
+   "connected",
+   "network",
+   "slow"
+  ],
+  "start": "s",
+  "blocks": {
+   "s": {
+    "q": "Do other devices also have no internet?",
+    "options": [
+     {
+      "text": "Yes, all devices",
+      "next": "all"
+     },
+     {
+      "text": "Only this one",
+      "next": "one"
+     }
+    ]
+   },
+   "all": {
+    "a": "1. Switch the router off for 30 seconds, then on.\n2. Wait 2 minutes for the lights to settle.\n3. Check that the cable to the wall is firm.\n4. If it still fails, call your internet provider."
+   },
+   "one": {
+    "a": "1. Turn Wi-Fi off and on on this device.\n2. Choose Forget network, then reconnect.\n3. Restart the device.\n4. Check that airplane mode and a VPN are off."
+   }
+  }
+ },
+ {
+  "id": "stuck-problem",
+  "title": "Stuck on a maths or physics problem",
+  "triggers": [
+   "stuck",
+   "problem",
+   "physics",
+   "maths",
+   "math",
+   "homework",
+   "understand",
+   "question"
+  ],
+  "start": "s",
+  "blocks": {
+   "s": {
+    "q": "Do you understand what the question is asking?",
+    "options": [
+     {
+      "text": "Yes",
+      "next": "formula"
+     },
+     {
+      "text": "No",
+      "next": "read"
+     }
+    ]
+   },
+   "read": {
+    "a": "1. Read the question again slowly.\n2. Underline what is given and circle what you must find.\n3. Draw a small diagram.\n4. Rewrite the question in your own words, then come back to this guide."
+   },
+   "formula": {
+    "q": "Do you know which formula or rule applies?",
+    "options": [
+     {
+      "text": "Yes",
+      "next": "steps"
+     },
+     {
+      "text": "No",
+      "next": "find"
+     }
+    ]
+   },
+   "find": {
+    "a": "1. List the quantities you have and the one you need.\n2. Look in your notes for a formula linking exactly those quantities.\n3. Check the units match.\n4. Try a similar solved example from your book."
+   },
+   "steps": {
+    "a": "1. Write the formula.\n2. Put in the numbers with units.\n3. Solve one step at a time.\n4. Check whether the answer is sensible in size and unit."
+   }
+  }
+ },
+ {
+  "id": "newton-second-law",
+  "title": "Newton's second law of motion",
+  "start": "-",
+  "triggers": [
+   "newton",
+   "newtons",
+   "second",
+   "law",
+   "laws",
+   "motion",
+   "force",
+   "acceleration",
+   "mass",
+   "explanation",
+   "explain",
+   "physics",
+   "f=ma"
+  ],
+  "questions": [
+   {
+    "q": "What do you need?",
+    "options": [
+     {
+      "text": "Understand the idea",
+      "steps": [
+       "Newton's second law says: the force on an object equals its mass times its acceleration, written F = m × a.",
+       "In simple words: a bigger push gives a bigger change in speed, and a heavier object needs a bigger push to change its speed by the same amount.",
+       "Force is measured in newtons (N), mass in kilograms (kg), and acceleration in metres per second squared (m/s²).",
+       "One newton is the force that gives a 1 kg mass an acceleration of 1 m/s²."
+      ]
+     },
+     {
+      "text": "Solve a numerical problem",
+      "steps": [
+       "Write down what is given (mass, force or acceleration) with units.",
+       "Convert everything to kg, N and m/s² if needed.",
+       "Pick the form you need: F = m × a, a = F ÷ m, or m = F ÷ a.",
+       "Put in the numbers and calculate.",
+       "Check that the unit of your answer matches what was asked."
+      ]
+     },
+     {
+      "text": "See an example",
+      "steps": [
+       "Example: a 2 kg trolley is pushed with a force of 10 N.",
+       "Acceleration a = F ÷ m = 10 ÷ 2 = 5 m/s².",
+       "If the force doubles to 20 N, the acceleration doubles to 10 m/s².",
+       "If the mass doubles to 4 kg with the same 10 N, the acceleration halves to 2.5 m/s²."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Is more than one force acting on the object?",
+    "options": [
+     {
+      "text": "No, only one force",
+      "steps": [
+       "Use that force directly in F = m × a."
+      ]
+     },
+     {
+      "text": "Yes, several forces",
+      "steps": [
+       "Add forces that act in the same direction and subtract forces in opposite directions to get the net force.",
+       "Use the net force, not a single force, in F = m × a."
+      ]
+     },
+     {
+      "text": "Not sure",
+      "steps": [
+       "Draw the object and mark every force on it with an arrow, such as push, weight and friction.",
+       "Then find the net force and use it in F = m × a."
+      ]
+     }
+    ]
+   }
+  ],
+  "after": [
+   "The acceleration points in the same direction as the net force.",
+   "If the net force is zero, the speed does not change."
+  ]
+ }
+]
